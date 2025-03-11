@@ -21,6 +21,7 @@ This project implements a real-time object detection system using **YOLO (You On
 
 ### 1️⃣ **Clone the Repository**
 git clone https://github.com/omkarnarveer/Real-Time-Object-Detection-YOLO.git
+
 cd Real-Time-Object-Detection-YOLO
 
 ### 2️⃣ **Create a Virtual Environment (Optional)**
