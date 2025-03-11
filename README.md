@@ -26,7 +26,9 @@ cd Real-Time-Object-Detection-YOLO
 ### 2️⃣ **Create a Virtual Environment (Optional)**
 
 python -m venv venv
+
 source venv/bin/activate  # For macOS/Linux
+
 venv\Scripts\activate     # For Windows
 
 ### 3️⃣ **Install Dependencies**
