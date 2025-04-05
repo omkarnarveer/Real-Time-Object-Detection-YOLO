@@ -36,6 +36,10 @@ def video_feed():
 def home():
     return "Object Detection App"
 
+@app.route('/health')
+def health_check():
+    return "OK", 200
+
 if __name__ == "__main__":
     app.run(debug=False)
     port = int(os.environ.get('PORT', 5000))  # Use Render's PORT or default to 5000
