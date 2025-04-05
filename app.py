@@ -31,6 +31,12 @@ def index():
 def video_feed():
     return Response(generate_frames(),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
+    
+@app.route('/')
+def home():
+    return "Object Detection App"
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=False)
+    port = int(os.environ.get('PORT', 5000))  # Use Render's PORT or default to 5000
+    app.run(host='0.0.0.0', port=port)

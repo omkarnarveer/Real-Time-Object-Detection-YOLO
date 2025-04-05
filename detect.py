@@ -3,7 +3,7 @@ import torch
 from ultralytics import YOLO
 
 # Load YOLO model (YOLOv8 pre-trained model)
-model = YOLO(f".\models\yolov8n.pt")  # Use "yolov8s.pt" for a better model
+model = YOLO('yolov8n.pt')  # Use "yolov8s.pt" for a better model
 
 def detect_objects(frame):
     results = model(frame)
