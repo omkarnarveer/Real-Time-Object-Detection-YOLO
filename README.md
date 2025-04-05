@@ -21,24 +21,27 @@ This project implements a real-time object detection system using **YOLO (You On
 
 ### 1️⃣ **Clone the Repository**
 git clone https://github.com/omkarnarveer/Real-Time-Object-Detection-YOLO.git
+
 cd Real-Time-Object-Detection-YOLO
 
-###2️⃣ **Create a Virtual Environment (Optional)**
+### 2️⃣ **Create a Virtual Environment (Optional)**
 
 python -m venv venv
+
 source venv/bin/activate  # For macOS/Linux
+
 venv\Scripts\activate     # For Windows
 
 ### 3️⃣ **Install Dependencies**
 
 pip install -r requirements.txt
 
-###4️⃣ **Run the Application**
+### 4️⃣ **Run the Application**
 
 python app.py
 
-###5️⃣ **Access the UI**
+### 5️⃣ **Access the UI**
 Open http://127.0.0.1:5000 in your browser.
 
-###📜 **License**
+### 📜 **License**
 This project is open-source and available under the MIT License.
